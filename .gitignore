@@ -1,0 +1,7 @@
+med_data/*
+data/dataset/*
+weights/*
+*.pt
+*.zip
+# runs/val/*/labels/*
+runs/train/*/weights/*

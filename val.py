@@ -350,6 +350,11 @@ def parse_opt():
     print_args(vars(opt))
     return opt
 
+    # --data data/data.yaml
+    # --weights runs/train/exp10/weights/best.pt
+
+    # python3  val.py --data data/data.yaml --weights runs/train/exp10/weights/best.pt --task val --imgsz 640 --conf-thres 0.001 --iou-thres 0.7 --batch-size 32 --save-txt --save-json --project runs/val --name exp10
+
 
 def main(opt):
     #check_requirements(exclude=('tensorboard', 'thop'))

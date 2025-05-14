@@ -1,0 +1,18 @@
+# path: ./  # dataset root dir
+path: ./data/dataset  # dataset root dir
+train: train_medvision.txt  # train images 
+val: val_medvision.txt  # val images 
+#test: test_medvision.txt
+
+# Classes
+names:
+  0: "syringe"
+  1: "foreceps"
+  2: "shears"
+  3: "epipen"
+  4: "tourniquet"
+  5: "abdominal pad"
+  6: "gauze roll"
+  7: "bvm"
+  8: "scalpel"
+  9: "ett"
